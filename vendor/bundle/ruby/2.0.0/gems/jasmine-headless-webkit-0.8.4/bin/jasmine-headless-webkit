@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+
+$: << File.expand_path('../../lib', __FILE__)
+
+require 'jasmine-headless-webkit'
+require 'coffee-script'
+
+Jasmine::Headless::CommandLine.run!
+
