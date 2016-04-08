@@ -1,5 +1,5 @@
 describe "post" do
   it "should be true" do
-    true.should be_false
+    true.should be_true
   end
 end
